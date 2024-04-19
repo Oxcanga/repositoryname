@@ -1,0 +1,18 @@
+<Private>Ecbs(ecb)
+
+body {
+    pos-index: center;
+    backgr: Blue;
+    font: arial;
+}
+
+window {
+    pos-index: align;
+    font: ui;
+    backgr: black;
+    text: white;
+}
+button {
+    backgr: greeen;
+    change: true, ((clicked), Blue;
+)}

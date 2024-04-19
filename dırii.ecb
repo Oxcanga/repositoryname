@@ -1,0 +1,64 @@
+Choices(Axon)
+Choices(Libmanager)
+Compare(#TrueLibrary) into <#Lib>
+
+Private Class : dirii, TrueLibrary {
+    TrueLibrary.input(!"opt");
+    opt.Output = [PluginInput, "Plugin"; Plugin, Plug(Data)];
+
+    Section; {
+        Data1..Data: (Lib);
+        Section1..DataStore, Data(Form),
+        device.ConnectorDevice(ScrollControll);
+    }
+    Default Function(OnTypeIndex); PackageOnlneController;; {
+    ScrollType(Default);
+    <OnLiveProgress>.Section / Option.OnTypeIndex_co(Section1)[Send]
+    Plugin.Service = <#Libmanager>
+
+        TrueLibrary.Section = Union, UniTyping*
+
+      UniTyping.Collision; PackageOnlneController();;
+         UniTyping.Collider(Union<!>"Local", Local.HostDetails<#Host>);
+    PackageManager.UsingPackage(O<Object<<Class = Window {Window?
+        Syntax = OnTypeIndex_co(Lowercase);
+            PromticeServices:Collision[Syntax,[!"FireBash"]Script?];
+.ScrollType = ScrollLock({case.Lib}); {
+    New(FireBash{_user_}_kd () => UserBash)
+}
+
+    Plugin.Reserve(;"Plugin.plg");
+    Plugin.Connect(<#Reserve<<)
+
+    })}
+
+    PhishMode(), Learn [FUNCTION_ERROR] {
+        Console.Write("Fonskiyonda Bir Hata Oluştu");
+        Debug_err(ErrorEvent);
+    }
+    PhishMode(), Learn [USER_ERROR] {
+        Console.Write("Kullanıcıya bağlanılamadı");
+
+        MotionArray(ErrorEvent); {
+            Type.ProcessLog(TrueLibrary);
+            Retest(opt);
+            Loop.index(MotionArray);
+        }
+    }
+
+    vd do (yeni) = Create.New(Lib);
+
+    yeni.Section(SetOver); {
+        Section1.Section + trigger% LocalInfo(Service);
+        Union(Lib);
+        .<Holpast>; return.Section<<;
+            yeni.Collision(Section<<>);
+            yeni.Connect<%trigger>, TrueLibrary[Host, !"Parameter",: FireBash () => PackageOnlneController[case, ScrollType]];
+    }
+    onestop(List<Xmanction>. Other(OverFlow)[Default.Denial<<]);
+}
+
+
+vd girispencerepromt = CommandInput(>>Window.yeni>Class<Window["Bir Promt Girin"]);
+
+girispencerepromt.<opt<(Load;JsonModule[Moduler..onestop(<#openai>)])

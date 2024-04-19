@@ -1,0 +1,65 @@
+Choices(Axon)
+Compare(#Webco)
+Compare(#GluedeColl)
+Compare(#JsonModule)
+Compare(#LocalServices)
+
+Data string UrlComponent = ObjectType(onestop);
+    Public code : WebSiteConfig, MainScript
+    {(
+        Section(Data Count = 55,npx);
+        Public Default (Function)) dogrulasite(); {
+            <WebSiteConfig>.SetProcess(LocalTool ++i.init);
+            Lowercase(Up()<List..Tool>, LiveFormer(For _kd As ObjectType = Lowercase To UpperCase {Fill(task)::<<Header>>Syntax</JsonModule>[];
+                {
+                    Config(JsonModule,<LocalConnector>);
+
+                }
+            Next Function _kd}));
+            
+            Simple(Source)
+            {(
+                Set.ConfigurationFile(#Spradi);
+                LocalInfo.<Get>(Connect(LocalConnector));
+
+                <Tag>
+                {
+                    LocalConnector.Lowercase = Up;
+                    LocalConnector.case = True;
+                    LocalConnector.UpperCase.case = Lowercase;
+                    <Case.Up>LocalConnector<(case);
+                    LocalConnector.Application = stopApp();
+                    >>Traceback(Memory => () in Reset as ex Exception(LocalConnector)):
+                    Host.Refuse(Memory);
+                    if (Traceback.TraceMemory::OnLoop(<ConnectType.Script>;));
+                    Script.Restore(i++ dogrulasite.OnLooped, index == (link.Receive..Received () => as TryException)Try_Memory<TraceMemory>);
+                    link.Receive(ContentType_<Syntax>)
+                    dogrulasite.Receive(OnTypeIndex) do {
+                        Timelapse: InventionRequest(Requests.Send);
+                        Memory.Stop(Memory);
+                        Data String do configuresite = (Data.ConfigurationFile: WebConfig[]);
+                        ProtocolNumber: (InternetProtocol.Receive{645},(Protocol.Reset:: </JsonModule.configuresite.dogrulasite>));
+                        Memory.Reset(StopMemory(Stop));
+
+                        if (Memory.ScrollControll, ScrollType: <Requests>);
+                        {
+                            InventionRequest = Request.Requests();
+                           Data string do <UrlConnect> = GluedeColl.Coll(LocalServices, "Currently")
+                            do (While Count
+                                [
+                                    Requests.ScrollType= OnProcess((>>))
+                                    Requests.Send(Request [UrlConnect] =>to> dogrulasite(configuresite)>>:from:<<(UniTyping)+JsonModule as UrlComponent);
+
+                                ]
+                            End ;While)
+                        }
+
+
+                    }
+                }
+
+            )}
+        
+        }
+        
+    }

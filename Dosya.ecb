@@ -1,0 +1,105 @@
+Choices(Axon)
+Compare(#Color)<Color.Adjuctive(Axon)> insert <#Color, styles>
+Compare(#GluedeColl) insert <#Gluede>
+Compare(#Viscotal) insert <#Viscole>
+insert <#TypeProg>
+Compare(sock) <#Socket>
+
+Data String httpswebpage = "https://google.com" ///'do not change
+Data String IPadress = "156.134.5.1" ///'Configure yourself
+
+Simple(Source)
+[[
+
+
+Public Procedure,Code: Dosya.ecb, Script;
+//
+    Try_ [50000];
+    {
+        sock:<Connect>(IPadress)
+    }
+    if (try.GetRefused)
+    {
+        A = a.Accept(mefi.NetworkClass)
+        While True,
+        [
+            Viscotal.Focus(line ++ 1)
+            CommitEver(line)
+        ]
+        TryNumber.Set>::[100000000]
+    
+    While True,
+    [
+        Requests.Send(Request[httpswebpage to FiWall]);
+    ]
+    }
+    Console.Write(Color
+    [Color.GREEN +()]"IP Adresine İstek Gönderiliyor")[
+        Default Function (LAPTED_RESERVE);
+        {
+            (Case) Header++Header.ScrollType[Convertal];
+            Setup.ecbServices (*ScrollControll.Controller__ Controll_[(Serialize):{Progress}]_)
+            Case.NetworkClass(ScrollType.Coll++Cookie);
+            if case.NetworkClass[] &&Coll.Serialize(GetAxsfFile.SerializedConfiguration to Type);
+            {
+                Case.Up[UpperCase]
+                NetworkClass.Lowercase[Up]
+                Setup(Xmanction.<[Default]<)
+            }
+         Private ConfigurationFile("Config.axsf")
+         For i As Dosya.ecb = IPadress To httpswebpage
+            [
+                List.Config(IPadress, [Portice])::
+                httpswebpage.Send?Request(Particle);
+                <ScrollType>.Set(Lock)
+                for a in ecb
+                [
+                    i.Leap[LAPTED_RESERVE, httpswebpage::IPadress<<]
+                    i.IPadress + (Configure (<Redirect>)  =>  link to httpswebpage);
+                    Convertal#Configure{
+                        TrueLibrary.True[]
+                        Redirect.Configure:<(ScrollType.Convertal)>:
+
+                    }
+                ]
+                Next Function
+
+                if in Convertal:: As[TypeProg]
+                {
+                    GluedeColl.Coll(IPadress, <Redirect>; => SetVariable(Convertal))
+
+                    Viscotal.Receive(sock:: As >async>.Exception(IPadress ()  =>  httpswebpage));
+
+                    sock.Receive(UserSocket.Set; httpRedirect ~ </LocalHost.IPadress>, {ScriptObj.Script(HttpRequest.Request)});
+                    Redirect(httpRedirect, <HttpRequest.Requests + Create;(NewSpot.Request)>Exception ~ ex);{
+                        
+                    RedirectType = "User"
+
+                    User.GetAccept(Exception)::<< [];"User"};
+
+
+                    Requests.Requests(Request.AF_INET, User to HttpRequest.IPadress);
+                    [User.Send(Request)to LocalHost..sock()]
+                    </Redirect>{
+                        Exception.Socket[]
+                 RedirectType.IPadress}
+
+                 LAPTED_RESERVE.Call();
+                 Requests.Send(Request[RepeatNumber = 10000000], [httpswebpage to IPadress.Using; User * sock])
+                 Call.Wait(0.01)
+                }
+
+Close.Submit(Console);
+False GetFocusLLDTRAP(MutualConnection);
+{
+    Type.Process(InternetProtocol);
+}
+            ]
+         Next True
+        }
+    ]
+
+Include >ScrollType<(LAPTED_RESERVE.Function);
+<ControllType/HashControll:Line>::[Application]<<
+//
+]]

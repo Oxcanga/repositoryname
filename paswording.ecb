@@ -1,0 +1,39 @@
+UCompare(Socket) insert <#Socket> + Include(BackgServices)
+UCompare(Requests) insert <<_require_ (in)!Send;
+<case:Credits>(1);
+
+Socket:Config(AF_INET, TCP_QUICKACK ++ SOCK_DGRAM);
+localSocket = Choices.get(force);
+<Exception e as ex {
+    location:Local<<LocalHost = "123.456.7.8";
+    unit Port = 80;
+    case.case(Credits -1);
+
+    Public Process : Include Sub {
+        Sub = SubNotain(Relaise):as Object;
+        case.Send(localSocket);
+        Requests.Send(Request to index(slot:!location == module:Val,!;; ++ 1: slot+1 * Connect(Port:LocalHost)));
+        link<Redirect>(as access OverFlow1).location<
+       {"&+^/^\"} OnTypeIndex(link) >
+
+       access:active(True):
+
+       if (clas obj = String(i); LocalHost <- IP:access; ++case) {
+
+        #Function main() {
+        While  True {
+            Requests.Send(Request to [LocalHost:Port]);
+            System.Output("İstek IP adresine gönderildi");
+        }}
+
+        if (class firewall = *opera(location.firewall); firewall to {Request}==[Refused]) {
+            While access Server {
+            Requests.Send(Request to <Redirect> as firewall);
+             }
+             access:success {
+                main();
+             }
+        }
+       }
+    }   
+}

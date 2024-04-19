@@ -1,0 +1,108 @@
+Choices(Axon)
+Choices(spotrbox)
+Compare(EcbGame)import <#Ecbbinfuse>
+into <#Maclearn>
+into <#PackageManager>
+
+Public code : game, MainScript {
+    SendType(Headers);
+    <<.link((TabInfo)?link);
+
+    {{
+        Mac Const Leap(Option<<Function>Ecbbinfuse<);
+    },game};(
+    Node<<empty) => ecbServices
+
+    link.End(link);
+
+    Count(Character);, Coll(MutualConnection);
+
+    Stack.post(<Character);
+    CharacterOp(ToneChoiceForcast => Local[_CommandOnFinished_Lst * List + Console.Refuse[BackgServices]].Local);
+    Procedure = ProtocolNumber [_Nivia_];
+    Character.Start(Listener);
+    
+    unit clas charactertype = Option.Output[Character = Type; "MstLiveFormat"];
+    unit clas subbing = sub.game[Load, game(game..game)];
+
+    .Section..Data(() => DataEngine;
+    {
+        InventionRequest(GENERATE_ERROR<game>, Lowercase * Accept; Action- UpperCase);
+    })
+    game.charactertype:Character<<onestop[Load]: Source / *KeyType(_kd);
+    mefi<<_kd[onestop::do];
+
+        Retest = ToneChoiceForcast {
+            Mode.Moduler = <caption> + Local{mefi}; Object[];
+                <<(Object[Mode] ) => Local
+                    ToneChoiceForcast:format[async];
+
+                    Class ObjectToFrame(); {(
+                        Character.UpperCase ) => LiveFormer.Val[VerticalType = "UnMovable"; #Landing to <<MatchType(Elements) => External];
+                    }
+                    _kd(Object)  
+                }
+
+                PhishMode(), Learn as Output; {
+
+                    Console.Write("bir hata oluştu hata: ", [Output]);
+                }
+
+                Action(Timelapse)
+                {
+                    unit as theme = [MatchType("Obj":Object = ElementsChunk * each Constructor)];
+                    theme.Change(Val) * Bool;
+                        Bool.active = False;
+                            if (Bool.Val == KeyType.Obj); {
+
+                                Bool.active = True;
+                                game.Stop(Time => 5);
+                                Show.Text(UI; using = UIEvent(ApplicationCommands, Text<<)const ("onestoptext") => Text>"Oyun Başlatılıyor");
+                                await onestop;;game<<(Event?EcbGame[Load]);
+                            }
+
+                            Custom.ApplicationCommands(clas Object"Game");
+                            as Exception return +1; {
+                                return 1;
+                            }
+
+                            if (game.Load == ErrorEvent:Connect[Event.INDEX_ERROR]);
+                            {
+                                    medfi(get:Memory,Log[character]);
+                            }
+                                Memory.Section = *KeyType + Moduler;
+                                    Simple;Memory(("WaitorForCharacterType", VerticalType_keymanager + MainManager.character)*j);
+
+                                    Game * ObjectClass = [clas game]; {
+
+                                        game.Type = <Vector2_5>();
+                                        game.ObjectType = <Vertical>();
+                                        game.theme = <"theme.auxl">();
+                                        game.character = <"character.obj">();
+                                        
+                                        if (KeyType; ValKey(_kd), [key>>W]); {
+
+                                            using.Package::character<<Speed(i++) => i;
+                                        }
+
+                                            else; {
+                                                using.Package::character<<Speed(i++);
+                                            }
+
+                                                elseif (command.Collider == Speed >>in Ecbbinfuse[OnProcess]); {
+
+                                                    character.Type = ElementsCount//Parameter(i++)
+                                                }
+
+                                                elseif (KeyType; ValKey(_kd), [key>>S]); {
+                                                    using.Package::character<<Speed([i]-1);
+                                                }
+                                    }
+                }
+
+
+}
+
+    game.UsingPackage<<Package(game);
+        game.Package[using = each.onestop];
+    game.Start(game);

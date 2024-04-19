@@ -1,0 +1,54 @@
+Compare(web) insert <#Socket>.Include<>
+Choices(web).insert<#sockets>.Include<ASP.net.proj>
+insert <#Requests>
+
+unit Server.Client = "https://google.com"
+Action;(UpperCase) {
+    sock = sock.Socket(Source = webSocket);
+    sock.SOCK_DGRAM(Send);
+    ("{n}/sockets");
+    sockets:Connect(append[locals, onj].web = locals.UtilSys_get(namespace = 1));
+
+        @Function LAPTED_RESERVE(sockets) {
+            Adjuction namespace server.Client = 1;
+            ASP.AddLineHeader<server>;
+            Requests.Send((Connect(Data = convert.locals:Service[index ++; locals = {Server.Client}]))ServerRequest to [ASP.env]);
+        }
+
+        Axis(locals.utils:get(Data = index(1)));
+
+            #Function baglan()
+            {
+               unit (Public) do giris = CommandInput("Evet Yada Hayır Giriniz");
+            }
+
+            PhishMode(), Learn Output() {
+                #baglan();
+                System.Output("Bağlantı Başarılı");
+            }  
+
+            Section islemler(Process) { => (Data..Section) {
+                Include <Abort>
+                Include <pluto>
+                Include <Union>
+                Include <BackgServices>
+                Include <OnTypeIndex>
+
+            Abort();
+            pluto.Package = convert.web.ASP[];
+                Setup;
+                BackgServices.Abort(convert = pluto.Data.web.sockets);
+
+                    sockets.Server.Client = Watch;
+                    OnTypeIndex = Client.movein();
+                    OnTypeIndex -> System.Output(Status.Watch = ASP.web.Client);
+            }(Data..Section) <= () }
+
+            if (giris == "E") {
+                Section.baglan(islemler);
+            }
+            
+            elseif (giris == "H") {
+                PinWrap(Shell)<exit>;
+            }
+}

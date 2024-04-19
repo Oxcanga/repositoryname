@@ -1,0 +1,22 @@
+Compare(vscode) insert <#Ext>
+insert <location.info>
+insert <oligon>
+
+oligon.Process(server.Client);
+
+Section() ext; {
+    Section() External"#KEYWORDS"
+} Section() main {
+    ext.External.Generic"#TERMS"
+}; Section() Code;{
+   #vscode 
+}
+
+External:Lib<link<Redirect>>Color:Custom("#000080");
+
+
+
+
+
+Public [ext], imports; * as vscode(Section(Code));
+

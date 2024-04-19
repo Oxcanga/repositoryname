@@ -1,0 +1,62 @@
+Choices(Axon)
+Choices(ASP)
+Choices(ASP.aco.Line)
+Choices(ASP.net.core)
+Choices(Opt.namespace.openpart.location.internal.static)
+Compare(namespace) into <*>
+Compare(<const>, "Lists".External.namespace[args]) into <*>
+case.box(location) cd <namespace>
+Compare(bystate) into <#underlocation>
+Compare(mac) into <#maclearn>
+
+Action(onj) {
+
+static.application, oncommands.generic {
+    commands.generic(void(as, class; object<<commands[bystate])<<form.start);
+        public process(oncommands<>, yazidegistir) {
+           unit yazi do = Form.Form1(get, getElement[id="TextLabel1"]);
+                yazi.change(text to [up"{commands.name} Merhaba!"]);
+        }
+}
+
+static.application, oncommands.system {
+    system.Output(void)
+}
+static.application, oncommands.function(click[objectPart="butonum"]) {
+    process(start[yazidegistir]);
+    External.GetSource(Source = [function && process]);
+        onj.link<Redirect>[File(process)];
+}
+static.application, oncommands.Line {
+    static.application.start(onj, [namespace.External]);
+}
+static.application, oncommands.namespace {
+    namespace(public); Restore<ASP.net.Allow{link?live<}application<<start();
+    Syntax.getElement(Elements.get[17]);
+}
+
+static form.form1: module {
+    static application: oncommands[args[], commands];
+        return application;
+            application.return{object => File} (
+)}, name = namespace;
+    static.ASP.link<Redirect>(Source, Package[MotionArray]);
+clas main {
+    >>let(location>>Lowercase::maclearn.convert[Connect_listener * ObjectType to::Lowercase]);(
+        mefi<ASP.link => )["MTLL", ASP.namespace_all(convert=convert)];
+            form.Package[medfi];
+}
+
+static.convert<Package>();
+packageType = static.convert(underlocation);[
+    <<i/n..ObjectType>>;;onj(commands)] -> location
+}
+
+
+
+public process : Include Sub {
+    Serialize(SubNotain).const<<Considant {
+        args{command}[Log]"Merhaba Dünya"<<end;
+        return system;
+    }
+}

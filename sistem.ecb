@@ -1,0 +1,37 @@
+Compare(guidenles) insert <global>.to <p>
+insert <System.ano>
+
+System.ano.IP = IP.access(IPv4);
+unit adres = "192.168.0.0";
+unit kapiportu = 80;
+
+
+unit sock = init__socket(@Config.Socket[AF_INET, TCP]);
+sock.Connect(as using = sock.Socket);
+
+
+Section global(ano)
+{
+    Include>>LineServices<<
+    Include>>Socket<<
+    ,Socket.GetSource(Elements = [External.convert]);
+    ,;commands = ( -> 
+        multiple.do {
+            do onj for as format;
+        }
+        end.commands;
+    )
+    ,multiple = define@location=convert.location<access>(add.to);
+    ,do 
+    {
+        .all.access<all>;
+        Socket.server.Connect();
+        Socket.AES.Disk:disable();
+        server.remove();
+    } 
+
+}
+
+PhishMode(), Learn: ACCESS_ERROR {
+    server, Server.Stop(disable.Server);
+}

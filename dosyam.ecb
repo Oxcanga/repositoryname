@@ -1,0 +1,7 @@
+insert <SpotrBox>
+
+ignoring Class SpotrBox() {
+    ignoring void(local = SpotrBox.Class) {
+        System.Output("Merhaba, dünya!");
+    }
+}

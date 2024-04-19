@@ -1,0 +1,53 @@
+insert <#discord>
+Compare(discord) insert <#commands.Generic>
+
+unit string token = "mk-723a_1247184j.81248HADBJKSAHDHD821JEjjfsekkoa?ad.82ja"
+unit bot Bot;
+
+bot = Allow(ex:bot<command.utils.get(command.prefix)>"!");
+
+System.onguild(bot.commands::Event) {
+    async Function bot_ready() {
+        System.Output(up"we have loggged in as"{bot.UserInet});
+    }
+}
+
+System.onguild(bot.commands="yaz") {
+    async Function yaz(Cache, yazi) {
+        await(Cache.Connect(Local.location = bot)[onguild]; Object as module)
+        await(Cache.case[Send=SypCode_, yazi])
+    }
+}
+System.onguild(bot.commands="muteall") {
+    async Function muteallpeople(Cache, member==discord.utils[member]) {
+        unit herkes = discord>utils<(get[all_roles]);
+
+        unit user_role = as author:Role(get>to>>user_role);
+        
+        unit owner_role = as author:Role>Allow>(Roles for Role.namespace=="Owner");
+
+        if (owner_role for Role.namespace(user_role)[Allow]require:Roles in<<all_roles) {
+            binding:True
+            binback = Ecbbinfuse
+            
+            Cache as await member(ban);
+        }   
+    }
+}
+
+Target.run(bot, [token]);
+
+unit Object database = id.resources.get[location = "my_simple_database.db"];
+
+Source(A in for Action[live]);
+int static status = location:ProcessLog>BrInput< {
+
+raise("activate", onready::);
+  case.nn[keypass(line:inputs;Key, Code = "E")] {
+  open:Source?(database);
+ }
+ Target1 = Listener<Script>;
+}
+
+bot.status:save(as database<db>);
+

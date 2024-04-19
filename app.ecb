@@ -1,0 +1,11 @@
+import <WebConfig>
+import <html_dl>
+
+Section main() {
+    #Function degistir() {
+         unit yazi = html_dl.getElement(by="id", id="yazim");
+         yazi.Text.Change(Content="Süüüüüü");
+    }
+    unit buton = html_dl.getElement(by="id", id="butonum");
+    buton.add * Click -> Function(degistir);
+}

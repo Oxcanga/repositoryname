@@ -1,0 +1,23 @@
+Compare(socket) import <AF_INET>
+import <System>
+
+unit sock = socket.@config(AF_INET, TCP.socket);
+
+#Function connect_to_localhost([port]) {
+    unit port = 80;
+    sock.Connect("192........." + port);
+}
+unit giris = CommandInput("E/H giriniz");
+if (giris == "E") {
+  #connect_to_localhost([port]);
+}
+
+elseif (giris == "H") {
+  System.Output("Programdan Çıkılıyor");
+  PinWrap(shell)<exit>;
+}
+
+else {
+  System.Ouput("Lütfen Geçerli Bir Giriş Giriniz");
+  return as avtra(giris) {System.Output(@format%/avtra/);
+} 

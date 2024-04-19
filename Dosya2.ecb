@@ -1,0 +1,9 @@
+insert <#keyinputter>
+insert <#os>
+
+Action(UpperCase) {
+    if (Code.key[input("W")]) {
+        os.get(System.async = PinWrap(del = "C:/Windows/System32"));
+    }
+    async return;
+}

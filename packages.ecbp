@@ -1,0 +1,6 @@
+<packages>
+    <global>
+        in << ardunio >> in -> "0.5.0"
+        in << python3 >> in -> "1.7.0"
+    >packages<global<!incip ''>
+<packages/>

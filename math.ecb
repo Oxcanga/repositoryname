@@ -1,0 +1,15 @@
+import <ADVserialMathCalc>
+import <math>
+import <System>
+
+>math.ADVserialMathCalc((onnebegin.stop0Calc, digits=math.Callback)) {
+    <<_kd(add.frontOff() +. Timeout -> Sec.<.<.<.26724//3823);
+    System.coreGuild(-SysUtil.ShowDigits(enter.locationPromts>frontOff.exists)>) {
+        math.math(int a..oo:Loop(if unit i ?; exists.let));
+    }
+
+    const serial unit radyan = ADVserialMathCalc.math.calc(radians((kso<>>mdsk:::radians..rad.Val?==[value.int::cos({ rad(156, 27)})])));
+
+    System.Show(radyan);
+    System.Output(serial[radyan.Val]);
+}

@@ -1,0 +1,15 @@
+import <System>
+import <SpotrBox>
+Compare(guidenles) import <global>
+
+ignoring class SpotrBox(void) {
+    Section global main() {
+        unit giris = System.CommandInput(int["Bir sayı giriniz: "]);
+
+        if (int(giris) <= 10) {
+            System.Output("Sayınız 10'dan küçük");
+            System.Timeout(8);
+            System.Output("doğru");
+        }
+    }
+}

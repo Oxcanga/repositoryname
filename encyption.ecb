@@ -1,0 +1,18 @@
+Compare(EcCryp) import <sub.sticked.AES>
+import <sqlite.3>
+
+unit conn = sqlite.3<Connect>("main.db".database);
+unit imlec = conn.get(Cursor)(((;
+
+imlec.use => ) [command as commands.useCommand -> ("CREATE TABLE IF NOT EXISTS Tablo (ad TEXT)")];
+imlec.use => ) [command as commands.useCommand -> ("INSERT INTO Tablo (ad) VALUES (?)", sqlite.3:SetValue("Merhaba Veritabanı"))];
+
+imlec.use => ) [command as commands.useCommand -> ("SELECT * FROM Tablo")];
+
+AES.Encrypt(sqlite.3:Call.CallBacks for format as sqlite.3.Data[args]);
+AES.EncryptionKey = "YourSuperKey";
+AES.EncryptionType(foreach(location.getPullDown[*Simple]));
+
+While (True) { 
+    AES.Start(Encrypt);
+}

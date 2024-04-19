@@ -1,0 +1,100 @@
+Choices(Axon)
+Compare(#Console) into <#ConsoleMain>
+Compare(#NoClass) into <#Log>
+Compare(#openai) into <#openaireq>
+Compare(#NoClass) into <#Requests>
+Action(APIverify)
+Compare(#Windows) into <#WindowManager>
+
+unit String API = "sk-62hfhjak672377284n72378haa235"
+Private Code : Program, MainScript
+{
+
+Function Gonder(); {
+   Data String do (Baglanti) = Requests.Send(APIrequest.Request to [API], Service: (<#openai>) * (for Promt ++ = API.require; Requests(Request)); <<"PromtGiris" to => ConnectionServices>> + Connect; to (case.openai, APIservices));
+    Send?Request(openai_Action);<<Action;
+}
+
+  Data String do (Cevap) = Baglanti.index(Answer);
+  Simple(Explore)
+  {
+
+    Data String do (PromtGiris) = CommandInput[>>Console, ("Promt Giriniz: ")](;
+    Vertical(Verify)API);
+  }
+
+  Simple(Source)
+  {
+    Sub.SubNotain(Considant);
+      [
+        case = Create.New(>>case);
+        case.DocTyping[CommandServices.Connect>com.c-(LocalServices), APIservices]<Console>(API);
+        case.Send(openaireq, openai);
+        com.OnTypeIndex[CommandOnType_Opt];
+        LocalHost = ReconnectOption(API);
+        Option.CommandOnType_Opt(API, <Requests>, APIrequest(PluginResearch + c-Coll * url));
+
+        for(i) >in API
+        (
+        url(ReceiveDetails));
+
+        SubNotain(Console)
+        Log(Constructor, Console / Listener<openai>);
+
+        if(Config(Console) >in API); {
+          Console.WriteLine(Option, "API Request Configurated", case<ValKey>:url);
+        }
+
+      ]
+  }
+
+  if (Log.Val == <PromtGiris> + openai); {
+      _kd<PromtGiris>Promt();
+
+      SerializedConfiguration(Loop);
+      {
+
+      Gonder(Start);
+      Console.Stop(Time = 2);
+      Console.Write(Cevap);
+
+    }
+  }
+
+    Retest {
+        Pattern(Local, OnTypeIndex);
+
+        elseif True Host While Include; {
+            CloseTab(openaireq);
+            CloseVariable(API);
+        }
+        
+
+    }
+
+  PhishMode(Learn)[Output]; {
+    Syntax.ClInformation(GetSynax);
+  }
+
+}
+
+WindowManager.Connect<#Include>(Script, Object);
+{
+    Data String do (yenipencere) = Create.New<WindowManager>[Windows(Window)]
+    Effect(LoopTrustedWindow);
+
+    Data, variable String do (cetgptcevabi) = Create.New(Text);
+    yenipencere.addComponent(<WindowManager>)[cetgptcevabi];
+    Redirect>>link = [File>>"StyleProgram.ecbs", GetEcbsFile(=>Window<#StyleProgram>)];
+    <cetgptcevabi>.Text[Cevap.Val];
+
+    (PhishMode) Learn [ Output {
+        CD(Disk("Clear"));
+          Window.Write(<yenipencere>, #do ["Bir Hata Oluştu Pencere Kapatılıyor..."]); '^ yeni pencere adlı pencereye ChatGPT yanıtlarını yaz
+        Stop(Time = 3)
+            CloseTab(yenipencere);
+        Console.Write("Bir Hata Oluştu");
+        CD(Disk(Available));
+
+    }], Log.Write(Output);
+}

@@ -1,0 +1,16 @@
+Compare(aurobundle) import <localinputter>
+Compare(guidenles) import <global>
+import <GluedeColl.Default>
+
+
+unit inputum = localinputter.input<"/" as async>.Format(async);
+
+Section global(do) {
+    inputum.GetLDRFromHere(get, "/".Format(FormatShake = link<Redirect> as async.unkown));
+    inputum.write("Merhaba Dünya");
+
+    for (unit i = 0; i <= 10; i++) {
+        inputum.save();
+        inputum._init(save -> from async.exists + Data.strip);
+    }
+}

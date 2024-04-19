@@ -1,0 +1,72 @@
+import <ardunio>
+import <Socket>
+import <python3>
+import <System>
+
+unit sunucu = "192.........";
+Socket.Server = Client.add(sunucu);
+
+Public Section ardunio() {
+    unit sock = Socket@Config(AF_INET, TCP.Socket);
+
+   @Function Connect(SOCKET_SERVER) {
+        sock.Connect(as Socket.Server);
+   }
+
+   Class ardunio(main) {
+        ardunio.Server = require for int<<_kd(NewSpot.1==Request.add;1);
+        Spot = ardunio.Server.Connect(as Server.Client for _kd in <<< Past.False());
+            Server._kd = "ard-jasd21j8aj2499219jadpPJD923IjJFJaKFLKRNVSNOA328jafj8353525693285";
+            await Server<<Connect(_kd);
+            MIT_LOCALS_PLU_NOT(System.Scona.nit);
+
+            !python3.snippets#get -> { python3.Code(
+                ,"import ardunio"
+                ,"import ecrobl"
+                ,""
+                ,"ardunio.key = //ard-jasd21j8aj2499219jadpPJD923IjJFJaKFLKRNVSNOA328jafj8353525693285//"
+                ,"ardunio.connect(key)"
+                ,"ecrobl = ecrobl.servers.connect(key=f'{altude.key.ecrobl.server} fu-kadn1817249818hadakdaoo')"
+                ,"if connecting == True(ardunio) and True(ecrobl)"
+                ,python3_!;!"ardunio.servers.subset(ecrobl.servers)"
+            ), name="codeofpython" }
+
+            python3.code.run(name="codeofpython");
+   }
+   Class ardunio(Available=True) {
+        System.PushNotification(active=True, Val="Successful Ardunio Servers Connected!"); _> {
+            ardunio.Code(case=Cache) {
+                    "#include <Arduino.h>
+                    #include <SoftwareSerial.h>
+
+                    #define SOUND_PIN A0 // Ses sensörünün bağlı olduğu pin
+                    #define THRESHOLD 300 // Ses eşik değeri
+
+                    SoftwareSerial mySerial(10, 11); // RX, TX
+
+                    void setup() {
+                         pinMode(SOUND_PIN, INPUT);
+                         Serial.begin(9600);
+                         mySerial.begin(9600
+                    }
+
+                    void loop() {
+                    int soundValue = analogRead(SOUND_PIN);
+
+                    // Eşik değerinden yüksek ses algılandığında
+                    if (soundValue > THRESHOLD) {
+                        Serial.println('Ses Algılandı!');
+
+                        // Sese yanıt ver
+                        mySerial.println('Ses Algılandı!'); // Bu kısmı istediğiniz yanıtla değiştirebilirsiniz
+
+                        // Biraz bekleyelim ki ardışık sinyalleri almamak için
+                        delay(1000);
+                    }
+                }"
+            }
+        }
+        System.PushNotification(Event);
+        ardunio.code.run(Cache);
+   }
+}
